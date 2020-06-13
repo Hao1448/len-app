@@ -8,7 +8,7 @@ const UiButton = ({ children }) => {
 
 const Wrapper = styled.button`
     ${p_large};
-    padding: 8px 21px 12px;
+    padding: 8px 20px 12px;
     cursor: pointer;
     border-radius: 5px;
     background: ${p =>p.theme.color.red};
