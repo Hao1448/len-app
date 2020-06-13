@@ -2,7 +2,7 @@ import React from 'react';
 import styled, { ThemeProvider} from 'styled-components'
 import { GlobalTheme } from './base/theme'
 import { GlobalStyle } from './base/styles'
-import { Header, WidgetHero } from './components'
+import { Header, WidgetHero, WidgetReview } from './components'
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <Wrapper>
         <Header/>
         <WidgetHero/>
+        <WidgetReview/>
       </Wrapper>
     </ThemeProvider>
   );
