@@ -42,8 +42,9 @@ const Logo = styled.img``
 const HeaderItem = styled.div`
     ${p_large};
     grid-column: span 3;
-    padding: 10px 0 20px;
+    padding: 15px 0;
     text-align: center;
+    text-transform: uppercase;
     cursor: pointer;
     background: ${p => p.theme.color.grey};
     transition: color .2s, background .2s;
