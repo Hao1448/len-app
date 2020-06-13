@@ -1,3 +1,4 @@
 import WidgetHero from './WidgetHero'
+import WidgetReview from './WidgetReview'
 
-export { WidgetHero }
+export { WidgetHero, WidgetReview }

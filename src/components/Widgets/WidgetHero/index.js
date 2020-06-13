@@ -34,8 +34,8 @@ const Title = styled.div`
     text-transform: uppercase;
 `
 const Line = styled.div`
-    width: 72px;
-    height: 5px;
+    width: 70px;
+    height: 3px;
     background: ${p =>p.theme.color.red};
     margin: 14px 0 33px;
 `
