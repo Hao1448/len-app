@@ -22,9 +22,7 @@ const WidgetReview = () => {
     )
 }
 
-const Wrapper = styled.div`
-    padding-top: 50px;
-`
+const Wrapper = styled.div``
 
 const Title = styled.div`
     ${h2};
