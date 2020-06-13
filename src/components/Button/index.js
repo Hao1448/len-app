@@ -1,17 +1,20 @@
 import React  from 'react';
 import styled from 'styled-components'
+import { p_large  } from '../../base/mixins/text'
 
 const UiButton = ({ children }) => {
     return <Wrapper>{children}</Wrapper>
 }
 
 const Wrapper = styled.button`
-    padding: 7px 0 11px;
+    ${p_large};
+    padding: 8px 21px 12px;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 5px;
     background: ${p =>p.theme.color.red};
     color: ${p =>p.theme.color.white};
-    transition: background 0.2s, color 0.2s, border-color 0.2s, font-weight 0.2s;
+    transition: box-shadow 0.2s;
+    border: 0px;
     outline: none;
     user-select: none;
     &:hover {
