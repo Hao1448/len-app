@@ -1,12 +1,13 @@
 import React from 'react';
-import styled from 'styled-components'
-import { ThemeProvider } from 'styled-components'
+import styled, { ThemeProvider} from 'styled-components'
 import { GlobalTheme } from './base/theme'
+import { GlobalStyle } from './base/styles'
 import { Header } from './components'
 
 function App() {
   return (
     <ThemeProvider theme={GlobalTheme}>
+      <GlobalStyle />
       <Wrapper>
         <Header/>
       </Wrapper>
