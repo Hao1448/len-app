@@ -2,7 +2,7 @@ import React  from 'react';
 import styled from 'styled-components'
 import { p_large } from '../../base/mixins/text'
 import { Container, Grid } from '../../components'
-import logo from '../../images/img_logo.png'
+import logo from '../../base/images/img_logo.png'
 
 const Header = () => { 
     return (
