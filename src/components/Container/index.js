@@ -8,7 +8,6 @@ const Container = ({ children }) => {
 const Wrapper = styled.div`
     max-width: 1182px;
     margin: 0 auto;
-    padding: 0 30px;
 `
 
 export default Container
