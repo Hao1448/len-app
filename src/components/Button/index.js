@@ -5,7 +5,7 @@ const UiButton = ({ children }) => {
     return <Wrapper>{children}</Wrapper>
 }
 
-const Wrapper = styled.div`
+const Wrapper = styled.button`
     padding: 7px 0 11px;
     cursor: pointer;
     border-radius: 20px;
@@ -15,8 +15,7 @@ const Wrapper = styled.div`
     outline: none;
     user-select: none;
     &:hover {
-        background: ${p => p.theme.color.primary_dark};
-        border-color: ${p => p.theme.color.primary_dark};
+        box-shadow: 0px 2px 0px ${p =>p.theme.color.black};;
     }
 `
 export default UiButton
