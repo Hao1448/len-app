@@ -35,6 +35,7 @@ const Column = styled.div`
 
 const Title = styled.div`
     ${h3};
+    margin-bottom: 20px;
 `
 
 const Text = styled.div`
