@@ -21,9 +21,7 @@ const WidgetHero = () => {
     )
 }
 
-const Wrapper = styled.div`
-    padding-top: 30px;
-`
+const Wrapper = styled.div``
 const Content = styled.div`
     display: flex;
     flex-direction: column;
