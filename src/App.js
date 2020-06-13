@@ -2,14 +2,15 @@ import React from 'react';
 import styled, { ThemeProvider} from 'styled-components'
 import { GlobalTheme } from './base/theme'
 import { GlobalStyle } from './base/styles'
-import { Header } from './components'
+import { Header, WidgetHero } from './components'
 
 function App() {
   return (
     <ThemeProvider theme={GlobalTheme}>
-      <GlobalStyle />
+      <GlobalStyle/>
       <Wrapper>
         <Header/>
+        <WidgetHero/>
       </Wrapper>
     </ThemeProvider>
   );
